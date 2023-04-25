@@ -82,7 +82,7 @@ public class PaymentHistoryC extends AppCompatActivity {
             @Override
             protected void onBindViewHolder(@NotNull final PaymentsViewHolder viewHolder, int position, @NotNull Order model) {
                 //get id and query to set book name and author
-                viewHolder.row_amount.setText(String.format("%s ₹", String.valueOf(model.getPrice())));
+                viewHolder.row_amount.setText(String.format("%s £", String.valueOf(model.getPrice())));
                 viewHolder.row_paidon.setText(String.valueOf(model.getUpdatedat()));
                 String status=String.valueOf(model.getStatus());
 

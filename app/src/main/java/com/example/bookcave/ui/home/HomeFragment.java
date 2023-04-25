@@ -78,8 +78,8 @@ public class HomeFragment extends Fragment {
                         accepted_count = accepted_count + sp;
                     }
                 }
-                tprofit.setText(String.format("%d ₹", sum));
-                tpprofit.setText(String.format("+%s ₹", String.valueOf(accepted_count)));
+                tprofit.setText(String.format("%d £", sum));
+                tpprofit.setText(String.format("+%s £", String.valueOf(accepted_count)));
                 torder.setText(String.valueOf(count));
             }
         });
